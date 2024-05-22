@@ -32,6 +32,10 @@ All participating teams need to submit the following to win a competition.
 * Programming source codes used to identify tree species
 * A new **spc.csv** file that includes the encoded tree species for all 615 trees
 
+## Where to submit
+
+You need to submit the abovementioned items to Bina Thapa (thapab@purdue.edu). 
+
 # License
 
 All data in this repository can only used for the 2024 Code Jam, and they **CANNOT** be used for anything else. If you want to use this data for publications, please contact Dr. Jinha Jung (jinha@purdue.edu) and Dr. Songlin Fei (sfei@purdue.edu) to get an appropriate agreement. 
