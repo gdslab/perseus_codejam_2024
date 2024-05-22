@@ -22,7 +22,7 @@ We provide individual tree 3D point cloud data in the **point_cloud** directory 
 
 ### Tree species 
 
-We provide tree species labels in the **spc.csv** file. This file has two columns: **tree_id** for the numerical identifier of the individual tree 3D point cloud data and **spc_code** for tree species. We used an alphabet encoder for the tree species. The encoded value ranges from **a** to **x**, which contains 26 species in total. We provide encoded species labels for 368 trees to train your own model. 
+We provide tree species labels in the **spc.csv** file. This file has two columns: **tree_id** for the numerical identifier of the individual tree 3D point cloud data and **spc_code** for tree species. We used an alphabet encoder for the tree species. The encoded value ranges from **a** to **x**, which contains 24 species in total. We provide encoded species labels for 368 trees to train your own model. 
 
 ## What to submit
 
@@ -30,7 +30,7 @@ All participating teams need to submit the following to win a competition.
 
 * A brief report on the overall idea and process of the approach
 * Programming source codes used to identify tree species
-* A new **spc.csv** file that includes the encoded tree species for all 615 trees
+* A new **spc.csv** file that includes the encoded tree species for all 616 trees
 
 ## Where to submit
 
