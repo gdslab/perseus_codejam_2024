@@ -31,6 +31,7 @@ We provide tree species labels in the **spc.csv** file. This file has two column
 All participating teams need to submit the following to win a competition. 
 
 * A brief report on the overall idea and process of the approach
+* Video presentation
 * Programming source codes used to identify tree species
 * A new **spc.csv** file that includes the encoded tree species for all 616 trees
 
