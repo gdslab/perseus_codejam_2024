@@ -8,9 +8,11 @@ The 2024 Code Jam will focus on **Auto-identification of tree species from 3D po
 
 ## Problem definition
 
-Tree species identification is an essential part of sustainable forest management. New remote sensing technologies allow us to measure forests in greater detail. However, identifying tree species remains challenging. Creating better analytical tools to accomplish this goal will require creativity, innovation, and expertise from various skill areas. The 2024 Code Jam will challenge teams to develop novel methods for efficiently and accurately identifying tree species from high-resolution LiDAR point clouds.
+Tree species is a fundamental information required for forest inventorying, yet it has been a challenging task through remote sensing data. Many methods have been developed but lack generalizability. Here, we invite all PERSUS collaborators to bring your knowledge and expertise to unravel the novel method to identify tree species based on LiDAR data. This competition is divided into two sections: a. description of methods submission, and b. classification results. We are counting on you!
 
 ## Input Data
+
+LiDAR data was collected within the central hardwood forests during the leaf-off season. The raw data was collected using a FARO laser scanner set about 1.5 meters above the ground. Only one scan was collected at each location, so the point cloud data contains many exclusions. Individual trees were split out of the raw point cloud using a tree segmentation algorithm. Each .las file provided is intended to represent only one tree. Some noise and a few segmentation errors may be present in the provided data.  
 
 We provide individual tree 3D point clouds and corresponding tree species labels in this competition. All data in this repository are collected in the Martell Forest using TLS (Terrestrial Laser Scanner). Individual tree segmentation was applied to the TLS 3D point cloud data using an Unsupervised Canopy-to-Root Pathing (UCRP) Tree Segmentation Algorithm (https://www.mdpi.com/2072-4292/14/17/4274) developed by Joshua Carpenter (a member of Geospatial Data Science Lab - https://gdsl.org). Tree species identification is based on the CFI (Continuous Forest Inventory) protocol and the most recent tree inventory campaign led by Dr. Songlin Fei's research group. 
 
