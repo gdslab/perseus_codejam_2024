@@ -1,12 +1,14 @@
 # 2024 Code Jam Repository
 
+<img src="https://github.com/gdslab/perseus_codejam_2024/blob/main/figures/digital-forest-projects.jpg" width="100%">
+
 This is a repository for 2024 Code Jam. The goal of this code jam, hosted by the Institute for Digital Forestry at Purdue University, is to encourage innovation in a fun and active way. The winners will be announced at the 2024 PERSEUS Annual Meeting, Orono, Maine, July 22-24, 2024. Code jam participants will submit original codes and individual tree species identification results. The code jam organizers will evaluate the submitted codes and results on common data sets. 
 
-The 2024 Code Jam will focus on **Auto-identification of tree species from 3D point cloud data**. We seek to automate the identification of tree species from 3D point cloud data. 
+The 2024 Code Jam will focus on **Auto-identification of tree species from 3D point cloud data**. We seek to automate tree species identification from 3D point cloud data. 
 
 ## Problem definition
 
-Tree species identification is an essential part of sustainable forest management. New remote sensing technologies allow us to measure forests in greater detail. However, identifying tree species remains challenging. Creating better analytical tools to accomplish this goal will require creativity, innovation, and expertise from a wide range of skill areas. The 2024 Code Jam will challenge teams to develop novel methods for efficiently and accurately identifying tree species from high-resolution LiDAR point clouds.
+Tree species identification is an essential part of sustainable forest management. New remote sensing technologies allow us to measure forests in greater detail. However, identifying tree species remains challenging. Creating better analytical tools to accomplish this goal will require creativity, innovation, and expertise from various skill areas. The 2024 Code Jam will challenge teams to develop novel methods for efficiently and accurately identifying tree species from high-resolution LiDAR point clouds.
 
 ## Input Data
 
@@ -14,11 +16,13 @@ We provide individual tree 3D point clouds and corresponding tree species labels
 
 ### Individual tree 3D point cloud data
 
+<img src="https://github.com/gdslab/perseus_codejam_2024/blob/main/figures/codejam_ex.png" width="600 px">
+
 We provide individual tree 3D point cloud data in the **point_cloud** directory in the repository. Each file is assigned a numerical identifier, which will be used to match tree species labels. The file naming convention is **DDD.las**, where **DDD** represents the numerical identifier. 
 
 ### Tree species 
 
-We provide tree species labels in the **spc.csv** file. This file has two columns: **tree_id** for the numerical identifier of the individual tree 3D point cloud data and **spc_code** for encoded tree species from **a** to **x** (A total of 26 species). We only provide encoded species labels for 368 trees. 
+We provide tree species labels in the **spc.csv** file. This file has two columns: **tree_id** for the numerical identifier of the individual tree 3D point cloud data and **spc_code** for tree species. We used an alphabet encoder for the tree species. The encoded value ranges from **a** to **x**, which contains 26 species in total. We provide encoded species labels for 368 trees to train your own model. 
 
 ## What to submit
 
@@ -27,3 +31,13 @@ All participating teams need to submit the following to win a competition.
 * A brief report on the overall idea and process of the approach
 * Programming source codes used to identify tree species
 * A new **spc.csv** file that includes the encoded tree species for all 615 trees
+
+# License
+
+All data in this repository can only used for this competition, and they **CANNOT** be used for anything else. If you want to use this data for publications, please contact Dr. Jinha Jung (jinha@purdue.edu) and Dr. Songlin Fei (sfei@purdue.edu) to get an appropriate agreement. 
+
+# Acknoweldgement
+
+Some text will come here.
+
+
